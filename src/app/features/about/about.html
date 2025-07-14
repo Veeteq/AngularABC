@@ -1,3 +1,12 @@
 <p>about works!</p>
-<a href="https://www.ganatan.com/en/tutorials/routing-with-angular">Routing with Angular 20</a>
-<a href="https://www.syncfusion.com/blogs/post/build-a-crud-app-in-angular/amp">How to Build a CRUD App in Angular</a>
+<div>
+    <p>about works!</p>
+    <ul>
+      <li><a routerLink="/about/experience">experience</a></li>
+      <li><a routerLink="/about/skill">skill</a></li>
+    </ul>
+    <h4>Child Routes Result</h4>
+    <a href="https://www.ganatan.com/en/tutorials/routing-with-angular">Routing with Angular 20</a><br>
+    <a href="https://www.syncfusion.com/blogs/post/build-a-crud-app-in-angular/amp">How to Build a CRUD App in Angular</a>
+    <router-outlet></router-outlet>
+  </div>
